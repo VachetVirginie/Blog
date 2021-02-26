@@ -1,0 +1,26 @@
+[
+  {
+    "name": "blog-author-author",
+    "path": "/blog/author/:author?",
+    "component": "/Users/vivi./Dev/blog/pages/blog/author/_author.vue",
+    "chunkName": "pages/blog/author/_author"
+  },
+  {
+    "name": "blog-tag-tag",
+    "path": "/blog/tag/:tag?",
+    "component": "/Users/vivi./Dev/blog/pages/blog/tag/_tag.vue",
+    "chunkName": "pages/blog/tag/_tag"
+  },
+  {
+    "name": "blog-slug",
+    "path": "/blog/:slug?",
+    "component": "/Users/vivi./Dev/blog/pages/blog/_slug.vue",
+    "chunkName": "pages/blog/_slug"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/vivi./Dev/blog/pages/index.vue",
+    "chunkName": "pages/index"
+  }
+]
