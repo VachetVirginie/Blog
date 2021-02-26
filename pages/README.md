@@ -1,6 +1,3 @@
-# PAGES
+[![Netlify Status](https://api.netlify.com/api/v1/badges/40a07359-2f7b-4b34-adff-7de524640623/deploy-status)](https://app.netlify.com/sites/waspyblog/deploys)
 
-This directory contains your Application Views and Routes.
-The framework reads all the `*.vue` files inside this directory and creates the router of your application.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/guide/routing).
+[Lien](https://waspyblog.netlify.app)
