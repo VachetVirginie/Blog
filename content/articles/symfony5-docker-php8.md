@@ -16,14 +16,12 @@ tags:
 
 Docker / Symfony 5.2 / PHP 8
 
-Prérequis
-=========
+## Prérequis
 
 -   Docker sur sa machine ([Mac](https://docs.docker.com/docker-for-mac/install/), [Ubuntu](https://docs.docker.com/engine/install/ubuntu/), [Windows](https://docs.docker.com/docker-for-windows/install/))
 -   Docker-compose <https://docs.docker.com/compose/install/>
 
-Etape 1: Création de l'arborescence du projet
-=============================================
+## Etape 1: Création de l'arborescence du projet
 
 L'idée est de séparer la partie "infrastructure" que représente le sous ensemble (Nginx, PHP8 et Docker) de la partie applicative qui est Symfony.
 
@@ -39,8 +37,7 @@ Si tout se passe bien, à la fin du tuto vous devriez vous retrouver avec l'arbo
 
 ![Arborescence du projet à la fin du tutoriel](https://miro.medium.com/max/226/1*cdxvE6JX8vHMqRbBLyziCg.png)
 
-Etape 2: PHP 8
-==============
+## Etape 2: PHP 8
 
 On se place dans le répertoire infra/php pour créer le Dockerfile.\
 Il a pour but de faire tourner un container sur PHP8 en RC3, la toute dernière version à ce jour.\
@@ -61,8 +58,7 @@ EXPOSE 9000
 
 ````
 
-Etape 3: Nginx
-==============
+## Etape 3: Nginx
 
 On se place ensuite dans le repertoire infra/nginx pour y configurer notre serveur à l'aide des 2 fichiers:
 
@@ -133,8 +129,8 @@ http {
 }
 ````
 
-Etape 4: Création du docker-compose et du .env
-==============================================
+## Etape 4: Création du docker-compose et du .env
+
 
 On se place dans le répertoire "infra" et on créer le fichier .env pour ajouter quelques variables d'environnement, que l'on utilisera à travers le docker-compose (principalement pour configurer Symfony ).
 
@@ -205,8 +201,7 @@ Si tout se passe bien, à la fin vous devriez avoir 2 containers en cours d'exec
 
 docker-compose ps
 
-Etape 5: Symfony 5
-==================
+## Etape 5: Symfony 5
 
 Récupérerons maintenant les sources du projet Symfony.\
 Souvenez-vous, dans la configuration du container php du fichier docker-compose.yml, nous avons partagé le volume pour que le repertoire symfony de notre projet pointe dans /var/www du container php.
