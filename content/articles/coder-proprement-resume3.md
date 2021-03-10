@@ -1,6 +1,6 @@
 ---
 title: Résumé détaillé du livre “Coder proprement” de Rober C. Martin — 3ème Partie
-img: https://miro.medium.com/max/408/1*9HPVAYPt7W_-hTgbAM3-Lg.jpeg
+img: https://images.unsplash.com/photo-1537420327992-d6e192287183?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80
 alt: nice image
 author: 
   name: Trésor Mvumbi
