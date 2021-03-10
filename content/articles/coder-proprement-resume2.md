@@ -9,20 +9,7 @@ author:
 tags: 
   - dev
 ---
-
-Cet article constitue la deuxième partie du résumé détaillé du livre “Coder proprement” de Robert C. Martin. Cette seconde partie couvre le chapitre 5 (formatage du code), chapitre 6 (objets et structures de données) et enfin le chapitre 6 (gestion des exceptions). La première partie de la série est accessible ici.
-
-Cet article est un condensé de principes phares; il peut être utilisé comme aide mémoire sans enlever la nécessité de lire le livre (que j’encourage fortement). Ce résumé propose d’autres exemples de codes beaucoup plus concis par rapport au livre afin de faciliter la compréhension des principes. Les codes illustrés sont écrits en Java, mais les principes peuvent s’appliquer à la plupart de langages.
-
-Liens amazon pour se procurer le livre:
-
-Version originale (en anglais)
-
-Traduction française
-Image for post
-Image for post
-
-Chapitre 5: Formatage du code
+## Chapitre 5: Formatage du code
 
 La présentation du code a un impacte important sur sa lisibilité et maintenabilité. Ce chapitre aborde quelque principes qui permettent de proprement formater le code.
 
