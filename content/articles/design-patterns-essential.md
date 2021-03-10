@@ -1,5 +1,5 @@
 ---
-title: Design patterns : l’indispensable à savoir
+title: Design patterns, l’indispensable à savoir
 img: https://www.profocustechnology.com/wp-content/uploads/2016/02/design-pattern-1.jpg
 alt: nice image
 author: 
