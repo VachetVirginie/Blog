@@ -1,6 +1,6 @@
 ---
 title: 5 mauvaises habitudes à perdre en PHP
-img: https://previews.123rf.com/images/stanciuc/stanciuc1503/stanciuc150300671/37605308-notes-recycl%C3%A9-papier-%C3%A9pingl%C3%A9-sur-panneau-de-li%C3%A8ge-no-more-bad-habits-message-concept-image.jpg
+img: https://www.shethepeople.tv/wp-content/uploads/2017/01/bad-habits.png
 alt: bad habits image
 author: 
   name: Jimmy KLEIN
