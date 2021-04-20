@@ -10,9 +10,7 @@ tags:
   - php
 ---
 
-5 mauvaises habitudes à perdre en PHP
-
-Je fais quotidiennement de la revue de code. Et je vois assez fréquemment les mêmes erreurs.
+## 5 mauvaises habitudes à perdre en PHP
 
 Tester qu'un tableau n'est pas vide avant de boucler dessus
 ===========================================================
